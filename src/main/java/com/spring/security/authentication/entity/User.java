@@ -1,5 +1,6 @@
 package com.spring.security.authentication.entity;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
 import lombok.*;
 import lombok.experimental.*;
 
