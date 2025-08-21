@@ -114,6 +114,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>spring-security-img-springboot</finalName>
 	</build>
 
 </project>
