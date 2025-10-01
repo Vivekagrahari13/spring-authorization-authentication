@@ -32,7 +32,7 @@ services:
     depends_on:
       - postgres
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5433/spring_security_db
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/springdb
       SPRING_DATASOURCE_USERNAME: springuser
       SPRING_DATASOURCE_PASSWORD: springpass
     restart: on-failure
